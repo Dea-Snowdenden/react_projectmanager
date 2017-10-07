@@ -40,7 +40,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## for assigning ids, use uuid
 * npm install --save uuid
-where to put
+* where to put
 
 ```
   app.js
@@ -71,4 +71,4 @@ import PropTypes from 'prop-types';
 ## npm install jquery --save
 
 ## sample plain image
-![alt-text](plain.png)
+![alt-text](images/plain.png)
