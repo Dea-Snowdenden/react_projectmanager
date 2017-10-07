@@ -1,3 +1,10 @@
+# React app 
+
+## FEATURES:
+* add title, delete and save
+* choose catefory for saved title
+* api for todos
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -40,7 +47,7 @@ where to put
   AddProject.js
   ProjectItem.js
 ```
-![alt-text](id.png)
+![alt-text](images/id.png)
 
 ## npm install --save prop-types
 * usage: 
@@ -55,7 +62,13 @@ import PropTypes from 'prop-types';
   Projects.js
 ```
 
-# bring in data from outside API
+## bring in data from outside API
 * lifecycleDidMount
+```
+  https://jsonplaceholder.typicode.com/todos
+```
 
-# npm install jquery --save
+## npm install jquery --save
+
+## sample plain image
+![alt-text](plain.png)
