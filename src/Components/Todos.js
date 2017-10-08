@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ProjectItem from './ProjectItem';
 import PropTypes from 'prop-types';
 import TodoItem from './TodoItem';
 

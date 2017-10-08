@@ -23,14 +23,18 @@ my-app/
   package.json
   public/
     index.html
-    favicon.ico
   src/
     App.css
     App.js
     App.test.js
     index.css
     index.js
-    logo.svg
+    Components/
+      AddProject.js
+      ProjectItem.js
+      Project.js
+      TodoItem.js
+      Todos.js
 ```
 
 ### `npm start`
@@ -38,7 +42,7 @@ my-app/
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## for assigning ids, use uuid
+### for assigning ids, use uuid
 * npm install --save uuid
 * where to put
 
@@ -49,7 +53,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ```
 ![alt-text](images/id.png)
 
-## npm install --save prop-types
+### npm install --save prop-types
 * usage: 
 ```
 import PropTypes from 'prop-types';
@@ -62,13 +66,13 @@ import PropTypes from 'prop-types';
   Projects.js
 ```
 
-## bring in data from outside API
+### bring in data from outside API
 * lifecycleDidMount
 ```
   https://jsonplaceholder.typicode.com/todos
 ```
 
-## npm install jquery --save
+### npm install jquery --save
 
 ## sample plain image
 ![alt-text](images/plain.png)
